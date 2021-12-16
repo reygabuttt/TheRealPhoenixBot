@@ -21,16 +21,18 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hi {}, my name is {}!
 
-You can find the list of available commands with /help.
+ɪ ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ, ᴀɴᴅ ɪ ᴡᴏʀᴋ ᴀs ᴀ ᴍᴀɴᴀɢᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴜʙ ᴡʜᴏ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ɢʀᴜʙ ᴡᴇʟʟ !
+ɪ ᴡᴀs ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ @ryinaja
+ʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴛʜᴇ ʟɪsᴛ ᴏꜰ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ /help.
 """
 
-BOT_IMAGE = "https://telegra.ph/file/93612a540608640355f20.mp4"
+BOT_IMAGE = "https://telegra.ph/file/523043e18996d01f02200.jpg"
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
-If you have any questions on how to use me, head over to @PhoenixSupport
+I'm a modular group management bot with some fun extras! Take a look at the following for ideas on some \
+Things I can help with.
+for information about the Todoroki bot please go to @TodorokiUpdateX
 
 *Main* commands available:
  - /start: start the bot
@@ -148,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Pɧơɛnıх to your group.",
+                                text="Add Todoroki to your group.",
                                 url="t.me/{}?startgroup=botstart".format(bot.username),
                             )
                         ]
